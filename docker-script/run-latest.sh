@@ -2,6 +2,8 @@
 # Exit immediately if a simple command exits with a non-zero status.
 set -e
 
+# 示例： sh run-latest.sh rms-console-test/rms-ccc-console rms-ccc-console 8088:8088 /opt/java/rms-ccc-console/mon_data:/opt/java/rms-ccc-console/mon_data dev 1 host
+
 printf "\e[1;31m#########################################################################################################\e[0m \n"
 printf "\e[1;31m### Desc:         自动化容器启动脚本 —— 适用于本地、开发、测试、预发布、生产环境		                      ###\e[0m \n"
 printf "\e[1;31m### Date:         2021-05-10           								      ###\e[0m \n"
