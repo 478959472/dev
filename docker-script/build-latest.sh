@@ -1,5 +1,7 @@
 #!/bin/bash
 # Exit immediately if a simple command exits with a non-zero status.
+# ./.build-latest.sh 5g-platform-test 5g-ccc-console ${WORKSPACE}
+# ./build-latest.sh 5g-platform-test 5g-aim-editor /home/montnets/chenyun/workspase
 set -e
 
 printf "\e[1;31m#########################################################################################################\e[0m \n"
